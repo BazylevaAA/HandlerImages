@@ -67,7 +67,7 @@ public class ApkExtractServiceImpl implements ApkExtractService {
         Path outDir = EXTRACT_CONTENT_FROM_APK.resolve(file.getName());
         String apktoolPath = "C:/Users/n_baz/Desktop/handler/handler/handler/apktool_2.12.1.jar";
 
-        List<String> cmd = Arrays.asList("java", "-jar", apktoolPath, "-d", "-f" , "-o" ,outDir.toAbsolutePath().toString(), file.getAbsolutePath());
+        List<String> cmd = Arrays.asList("java", "-jar", apktoolPath, "d", "-f" , "-o" ,outDir.toAbsolutePath().toString(), file.getAbsolutePath());
         log.info("Запуск apktool: {}", String.join(" ", cmd));
 
         ProcessBuilder pb = new ProcessBuilder(cmd);

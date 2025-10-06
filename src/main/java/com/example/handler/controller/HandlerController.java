@@ -1,6 +1,6 @@
 package com.example.handler.controller;
 
-import com.example.handler.service.FileHandlerService;
+import com.example.handler.service.handlerService.FileHandlerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

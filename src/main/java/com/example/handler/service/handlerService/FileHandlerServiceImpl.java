@@ -1,4 +1,4 @@
-package com.example.handler.service;
+package com.example.handler.service.handlerService;
 
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
